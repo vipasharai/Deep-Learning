@@ -1,26 +1,33 @@
-# Deep Learning Projects & Implementations
+<div align="center">
 
-Welcome to the **Deep Learning** repository! This repository serves as a comprehensive showcase of deep learning, computer vision, and generative AI projects, ranging from foundational concepts and framework basics to state-of-the-art vision models and custom implementations.
+# Deep Learning Projects & Computer Vision Benchmarks
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+  A curated repository showcasing deep learning models, custom neural network architectures, computer vision pipelines (YOLO, Detection, Tracking, Segmentation), and Generative AI implementations.
+</p>
+
+</div>
 
 ---
 
-## 📌 Repository Overview
-
-This repository is structured to cover core neural network architectures, framework practices (TensorFlow/Keras/PyTorch), computer vision techniques (detection, tracking, segmentation), and generative models.
+## 📌 Repository Architecture
 
 ```text
 Deep-Learning/
 │
-├── 📁 GAN/                                 # Generative Adversarial Networks (Architecture & Experiments)
-├── 📁 Good apple and Rotten apple project/  # Quality Inspection Classification / Computer Vision Project
-├── 📁 Image Segmentation/                   # Semantic & Instance Segmentation Models
-├── 📁 Object Detection/                     # Object Detection Benchmarks & Models
-├── 📁 Object Tracking/                      # Multi-object Tracking Algorithms
-├── 📁 Research_Paper_Code/                  # Implementations & Experiments from AI Research Papers
-├── 📁 YOLO/                                 # YOLO Implementations (v5/v8 Custom Training & Fine-Tuning)
+├── 📁 GAN/                                   # Generative Adversarial Networks (Image Synthesis & DCGANs)
+├── 📁 Good apple and Rotten apple project/    # CNN-based Agricultural Defect & Quality Inspection
+├── 📁 Image Segmentation/                     # Semantic & Instance Segmentation Pipelines
+├── 📁 Object Detection/                       # Multi-class Object Detection Implementations
+├── 📁 Object Tracking/                        # Real-time Video Object Tracking Algorithms
+├── 📁 Research_Paper_Code/                    # Custom Code Implementations of AI Research Papers
+├── 📁 YOLO/                                   # Custom Dataset Training & Fine-Tuning (YOLOv5 / YOLOv8)
 │
-├── 📜 Perceptron2.ipynb                     # Core Neural Network Mechanics & Perceptron Logic
-├── 📜 Tensorflow.ipynb                      # Fundamentals of TensorFlow & Neural Network Setup
-├── 📜 Tensorflow_Mini_Project.ipynb         # End-to-End Deep Learning Pipeline in TensorFlow
-├── 📜 inferencing_with_pretrained_yolo_models.py # Inference Pipeline for Pretrained YOLO Weights
-└── 📜 LICENSE                               # MIT License
+├── 📜 Perceptron2.ipynb                       # Fundamental Perceptron & Single-Layer Network Mechanics
+├── 📜 Tensorflow.ipynb
